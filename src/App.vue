@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Subindo projetos VUE.js no GitHub Pages"/>
+  <Header></Header>
+  <Main></Main>
+  <Footer></Footer>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import Main from './components/Main.vue'
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Main,
+    Header,
+    Footer
   }
 }
 </script>
@@ -24,16 +30,13 @@ export default {
 
 body {
   height: 100vh;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: rgb(241, 241, 241);
-  text-align: center;
-  color: #2c3e50;
+  width: 100vw;
+  background: red;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  overflow-x: hidden;
+
 }
 
 </style>
