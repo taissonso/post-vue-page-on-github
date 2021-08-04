@@ -27,7 +27,7 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: gray;
+  background: rgb(241, 241, 241);
   text-align: center;
   color: #2c3e50;
   display: flex;
